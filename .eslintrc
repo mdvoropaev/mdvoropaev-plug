@@ -1,0 +1,30 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 2017,
+    "sourceType": "module"
+  },
+  "plugins": [
+    "prettier",
+    "unicorn"
+  ],
+    "env": {
+      "browser": true,
+      "es6": true,
+      "node": true
+    },
+    "globals": {
+      "chrome": true
+    },
+    "rules": {
+      "no-debugger": "off",
+      "no-console": 0,
+      "prettier/prettier": "error",
+      "no-empty": [1, { "allowEmptyCatch": true }]
+    },
+    "extends": [
+      "eslint:recommended",
+      "plugin:prettier/recommended",
+      "prettier",
+      "prettier/@typescript-eslint"
+    ]
+  }

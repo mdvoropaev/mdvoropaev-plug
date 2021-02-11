@@ -1,0 +1,13 @@
+@function vw($value, $base: 1920) {
+	@return $value / $base * 100vw;
+}
+
+@function vmin($value, $base: 320) {
+	@return $value / $base * 100vmin;
+}
+
+@mixin mobile {
+	@media(max-width: 576px) {
+		@content;
+	}
+}

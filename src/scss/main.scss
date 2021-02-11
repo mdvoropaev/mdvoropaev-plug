@@ -1,0 +1,8 @@
+@import 'mixins'; //миксины
+@import 'fonts'; //шрифты
+@import 'vendor'; //плагины
+@import 'vars'; //переменные
+@import 'functions'; //функции
+@import 'settings'; //общие настройки
+@import './components/header';
+@import './components/tephone';
