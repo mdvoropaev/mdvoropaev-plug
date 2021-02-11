@@ -2,20 +2,15 @@ const msgOne = document.querySelector('.h1');
 const msgTwo = document.querySelector('.info__text');
 const visitCard = document.querySelector('.visit-card');
 
-function massageOne () {
+
+setTimeout(function messageOne () {
     msgOne.classList.add('b-show');
-}
+}, 1000);
 
-function massageTwo () {
+setTimeout(function messageTwo () {
     msgTwo.classList.add('b-show');
-}
+}, 3000);
 
-function vCard () {
+setTimeout(function vCard () {
     visitCard.classList.add('b-show');
-}
-
-
-setTimeout(massageOne, 1000);
-setTimeout(massageTwo, 3000);
-setTimeout(vCard, 4500);
-
+}, 4500);
